@@ -13,6 +13,7 @@ boxTitle.className = "box-title";
 
 const boxButton = document.createElement("a");
 boxButton.className = "box-a";
+boxButton.href = "index.html";
 boxButton.textContent = "Fechar";
 
 modal.appendChild(boxTitle);
