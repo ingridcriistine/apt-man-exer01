@@ -46,4 +46,13 @@ function login() {
   }
 }
 
+function mostrarSenha() {
+  if() {
+    
+  }
+  else {
+
+  }
+}
+
 
