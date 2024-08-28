@@ -34,9 +34,17 @@ document.addEventListener("DOMContentLoaded", function () {
         cardQtd.className = "card-qtd";
         cardQtd.textContent = "Quantidade: " + produto.quantidade;
 
-        const cardStatus = document.createElement("p");
+        const cardStatus = document.createElement("div");
         cardStatus.className = "card-status";
-        cardStatus.textContent = "Status: " + produto.status;
+        cardStatus.style.width = "1rem";
+        cardStatus.style.height = "1rem";
+        cardStatus.style.borderRadius = "100%";
+        if(produto.status === true) {
+            cardStatus.style.background = "red";
+        }
+        else {
+            cardStatus.style.background = "green";
+        };
 
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardPreco);
