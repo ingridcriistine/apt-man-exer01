@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto";
+}
+
 .card-produto {
     display: flex;
     flex-direction: column;
@@ -23,7 +27,7 @@
     flex-direction: row;
 }
 
-.produtos-container {
+#produtos-container {
     display: flex;
     flex-direction: row;
 }

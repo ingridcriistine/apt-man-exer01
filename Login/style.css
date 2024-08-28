@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto";
 }
 
 .container {
@@ -37,4 +38,29 @@ body {
 input {
   padding: 5px;
   border: 2px solid #909090;
+}
+
+.box-modal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.box-a {
+  padding: 1px 5px 1px 5px;
+  width: 45px;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+#modal-validacao {
+  margin-top: 80px;
 }
