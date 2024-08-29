@@ -2,7 +2,7 @@
 let produtos;
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("../Dados/showroom.json")
+  fetch("../Dados/loja.json")
     .then((response) => response.json())
     .then((data) => {
       produtos = data;

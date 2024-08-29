@@ -3,18 +3,73 @@
     "id": 1,
     "descricao": "Produto 1",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
-    "preco": 10.0
+    "preco": 10.0,
+    "quantidade": 20,
+    "status": true
   },
   {
     "id": 2,
     "descricao": "Produto 2",
     "imagem": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
-    "preco": 20.0
+    "preco": 20.0,
+    "quantidade": 0,
+    "status": false
   },
   {
     "id": 3,
     "descricao": "Produto 3",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
-    "preco": 30.0
+    "imagem": "https://m.media-amazon.com/images/I/61XudjcLXuL._AC_UF350,350_QL80_.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 4,
+    "descricao": "Produto 4",
+    "imagem": "/imagens/bio.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 5,
+    "descricao": "Produto 5",
+    "imagem": "/imagens/deo.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 6,
+    "descricao": "Produto 6",
+    "imagem": "/imagens/eau.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 7,
+    "descricao": "Produto 7",
+    "imagem": "/imagens/luna.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 8,
+    "descricao": "Produto 8",
+    "imagem": "/imagens/supreme.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 9,
+    "descricao": "Produto 9",
+    "imagem": "/imagens/essencial.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
   }
+  
 ]
