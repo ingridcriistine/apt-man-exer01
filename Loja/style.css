@@ -15,6 +15,7 @@
   .top {
     display: flex;
     justify-content: space-between;
+    height: 30px;
   }
 
   .p-carrinho {
@@ -24,8 +25,20 @@
     border-radius: 10px;
   }
 
+  #perfil {
+    margin-right: 20px;
+  }
+
   .idPerfil {
-    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 30%;
+  }
+  
+  .sair {
+    width: 15%;
+    margin-left: 10px;
   }
 
   p {
@@ -42,7 +55,11 @@
   .idPerfil {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    width: 15%;
+  }
+
+  #idPerfil {
+    margin: 5px;
   }
 
   .card-produto {

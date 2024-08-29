@@ -11,17 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <h1>Login</h1>
-        <input type="text" placeholder="Insira seu nome" id="nome" />
-        <div style="position: relative;">
-          <input type="password" placeholder="Insira sua senha" id="senha" >
-          <img src="/Imagens/chave.png" class="icone" onclick="mostrarSenha()">
+    <header></header>
+    <main>
+      <div class="container">
+        <h1>Login</h1>
+          <input type="text" placeholder="Insira seu nome" id="nome" />
+          <div class="box-login" style="position: relative;">
+            <input type="password" placeholder="Insira sua senha" id="senha" >
+            <img src="/Imagens/chave.png" class="icone" onclick="mostrarSenha()">
+          </div>
+          <button onclick="login()">Entrar</button>
         </div>
-        <button onclick="login()">Entrar</button>
+        <p><a href="../Showroom/showroom.html">Visitar showroom</a></p>
       </div>
-      <p><a href="../Showroom/showroom.html">Visitar showroom</a></p>
-    </div>
+    </main>
+
+    <footer></footer>
 
     <div id="modal-validacao"></div>
     <script src="script.js"></script>

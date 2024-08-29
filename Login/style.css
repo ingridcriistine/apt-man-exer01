@@ -11,6 +11,19 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Roboto";
+  background-color: rgb(219, 255, 255);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 50px;
 }
 
 .container {
@@ -19,9 +32,19 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2vh;
-  width: 80%;
-  height: auto;
+  width: 40%;
+  height: 500px;
   margin-bottom: 4vh;
+  background-color: rgb(0, 180, 180);
+  border-radius: 10px;
+}
+
+.box-login {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .key {
@@ -30,6 +53,7 @@ body {
   right: 10px;
   opacity: 0.6;
 }
+
 .key:hover {
   cursor: pointer;
   opacity: 1;
@@ -38,6 +62,13 @@ body {
 input {
   padding: 5px;
   border: 2px solid #909090;
+  width: 60%;
+  border-radius: 10px;
+}
+
+#senha {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .box-modal {
@@ -61,8 +92,14 @@ input {
   justify-content: center;
 }
 
+button {
+  margin-top: 40px;
+  padding: 5px 20px 5px 20px;
+}
+
 #modal-validacao {
   margin-top: 80px;
+  border-radius: 10px;
 }
 
 .icone {
@@ -71,4 +108,8 @@ input {
   right: 8px;
   width: 12px;
   cursor: pointer;
+}
+
+a {
+  color: black;
 }

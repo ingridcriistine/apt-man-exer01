@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    font-family: "Roboto";
+    background-color: rgb(219, 255, 255);
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-bottom: 100px;
+  }
+
+  a {
+    color: black;
+    background-color: rgb(197, 214, 216);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+  }
+
+  #lista {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 5px;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  #lista button {
+    background-color: rgb(255, 161, 161);
+    border-radius: 100%;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  #total {
+    align-self: flex-end;
+    margin-right: 23%;
+  }
+
+  .btn-pedir {
+    align-self: flex-end;
+    margin-right: 23%;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(197, 214, 216);
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  #pedido {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: green;
+    color: #ffff;
+    font-size: 1.4rem;
+  }

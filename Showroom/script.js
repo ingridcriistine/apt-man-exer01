@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
         cardStatus.style.height = "1rem";
         cardStatus.style.borderRadius = "100%";
         if(produto.status === true) {
-            cardStatus.style.background = "red";
+            cardStatus.style.background = "green";
         }
         else {
-            cardStatus.style.background = "green";
+            cardStatus.style.background = "red";
         };
 
         cardBody.appendChild(cardTitle);

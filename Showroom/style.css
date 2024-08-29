@@ -1,34 +1,117 @@
-body {
-    font-family: "Roboto";
-}
-
-.card-produto {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(241, 241, 238);
-    width: 20%;
-    border-radius: 10px;
+}
+
+h1 {
     margin: 30px;
 }
 
-.card-produto img {
-    width: 30%;
-    margin: 50px;
-}
+* {
+    padding: 0;
+    margin: 0;
+  }
 
-.title {
-    font-size: 20px;
-}
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    font-family: "Roboto";
+    background-color: rgb(219, 255, 255);
+  }
 
-.wrap {
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .p-carrinho {
+    color: black;
+    background-color: rgb(197, 214, 216);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+  }
+
+  .idPerfil {
+    margin-right: 5%;
+  }
+
+  p {
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  .wrap {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .idPerfil {
     display: flex;
     flex-direction: row;
-}
+    gap: 5px;
+  }
 
-#produtos-container {
+  .card-produto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(241, 241, 238);
+      border-radius: 10px;
+      margin: 30px;
+      padding: 20px 0 40px 0;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .card-produto img{
+      width: 80%;
+      margin-bottom: 40px;
+      border-radius: 10px;
+      border: 1px solid black;
+  }
+  
+  .card-title {
+      font-size: 18px;
+  }
+
+  .card-body {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card-qtd {
+    margin-bottom: 10px;
+  }
+
+  .btn-adicionar-ao-carrinho {
+    background-color: rgb(197, 214, 216);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #produtos-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+  }
+  
