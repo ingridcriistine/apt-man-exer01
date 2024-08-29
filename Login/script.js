@@ -46,12 +46,14 @@ function login() {
   }
 }
 
+senha = document.getElementById("senha");
+
 function mostrarSenha() {
-  if() {
-    
+  if(senha.type === "text") {
+    senha.type = "password";
   }
   else {
-
+    senha.type = "text";
   }
 }
 
