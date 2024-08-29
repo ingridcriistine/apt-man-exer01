@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((data) => {
       produtos = data;
       const produtosContainer =
-        document.getElementById("produtos-container");
+        document.getElementsByTagName("produtos-container");
 
       produtos.map((produto, index) => {
         const card = document.createElement("div");
