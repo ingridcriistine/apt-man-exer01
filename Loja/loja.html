@@ -4,90 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loja</title>
+    <link rel="stylesheet" href="style.css"/>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-
-      body {
-        width: 100vw;
-        height: auto;
-        overflow-x: hidden;
-        padding: 20px;
-        font-family: "Roboto";
-      }
-
-      .wrap {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        padding: 5%;
-      }
-
-      .idPerfil {
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-      }
-
-      @media (width <= 900px) {
-        .center {
-          justify-content: center;
-          gap: 2vh;
-      }
-      .card-produto {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          background-color: rgb(241, 241, 238);
-          width: 20%;
-          border-radius: 10px;
-          margin: 30px;
-      }
-      
-      .card-img-top {
-          width: 30%;
-          margin: 50px;
-      }
-      
-      .title {
-          font-size: 20px;
-      }
-      
-      #produtos-container {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-      }
-      }
-    </style>
   </head>
   <body>
-    <a href="../Carrinho/carrinho.html">Ir para carrinho</a>
-    <div>
+    <a href="../Carrinho/carrinho.html" class="p-carrinho">Ir para carrinho</a>
+    <div class="top">
       <h5 id="perfil"></h5>
       <div class="idPerfil">
         Protocolo atual:
         <p id="idPerfil"></p>
       </div>
     </div>
-    <h1>Loja</h1>
-    <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
-    <br />
-    <h2>Produtos</h2>
-    <br />
-    <div class="wrap">
-      <div id="produtos-container"></div>
+    <div class="box">
+      <h1>Loja</h1>
+      <p>Bem vindo <span id="user"></span> , vamos as compras!</p>
+      <br />
+      <h2>Produtos</h2>
+      <div class="wrap">
+        <div id="produtos-container"></div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

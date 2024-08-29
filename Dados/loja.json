@@ -2,7 +2,7 @@
   {
     "id": 1,
     "descricao": "Produto 1",
-    "imagem": "/imagens/aloha.jpg",
+    "imagem": "/imagens/luna2.jpg",
     "preco": 10.0,
     "quantidade": 20,
     "status": true
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "descricao": "Produto 2",
-    "imagem": "/imagens/aura.jpg",
+    "imagem": "/imagens/essencial.jpg",
     "preco": 20.0,
     "quantidade": 0,
     "status": false
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "descricao": "Produto 5",
-    "imagem": "/imagens/deo.jpg",
+    "imagem": "/imagens/humor.jpg",
     "preco": 30.0,
     "quantidade": 10,
     "status": true
@@ -66,7 +66,15 @@
   {
     "id": 9,
     "descricao": "Produto 9",
-    "imagem": "/imagens/essencial.jpg",
+    "imagem": "/imagens/deo.jpg",
+    "preco": 30.0,
+    "quantidade": 10,
+    "status": true
+  },
+  {
+    "id": 10,
+    "descricao": "Produto 10",
+    "imagem": "/imagens/kriska.jpg",
     "preco": 30.0,
     "quantidade": 10,
     "status": true
