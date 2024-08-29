@@ -91,5 +91,13 @@ function gerarDocumentoWord() {
   link.href = URL.createObjectURL(blob);
   link.download = "carrinho.doc";
   link.click();
-  document.getElementById("pedido").style.display = "block";
+
+  pedido = document.getElementById("pedido");
+  pedido.style.display = "block";
+
+  const boxButton = document.createElement("a");
+  boxButton.className = "box-a";
+  boxButton.href = "carrinho.html";
+  boxButton.textContent = "Fechar";
+  pedido.appendChild(boxButton);
 }
